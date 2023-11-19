@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.main-header{
+    background-color: black;
+    text-align: center;
+    padding: 0.5px;
+    color: gray;
+    justify-content: space-between;
+    border-bottom-color: green;
+    border-style: solid;
+
+}
+.nav li{
+    display: inline;
+    color: gray;
+    text-decoration: none;
+}
+.nav a {
+    padding: 2.5em;
+    color: gray;
+    text-decoration: none;
+}
+.nav a:hover {
+    color: white;
+}
+.hr {
+    background-color: black;
+    display: flex;
+    align-items: flex-start;
+
+}
+.sec-nav {
+    background-color: rgb(97, 93, 93);
+    background-size: cover;
+    color: white;
+    margin: 0;
+    top: 0px;
+    z-index: 1000;
+    padding: 1px;
+    text-decoration-color: gray;
+    text-decoration: none;
+    text-align: center;
+    border-top-color: green;
+
+
+}
+.sec-nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav b {
+    color: white;
+
+}
+.nav img {
+    width: 40px;
+    height: 30px;
+}
+.colored-line {
+    position: relative;
+    margin: 20px 0; /* Adjust the margin as needed */
+    height: 1px; /* Set the thickness of the line */
+    background-color: #3498db;
+}
+
+.nav i {
+    border-width: 2px;
+    border-color: red;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #423939;
+}
+.container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+.container h2 {
+    font-size: 1.1875rem;
+}
+.sec-container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+.sec-container h2 {
+    font-size: 1.1875rem;
+}
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+.left {
+    text-align: center;
+}
+.sec-container {
+    position: relative;
+    background-color: #423939;
+    color: white;
+    content: "";
+    clear: both;
+    display: flex;
+}
+.column {
+    width: 100%;
+    display: flex;
+    padding: 2.5px;
+
+}
+.left-side {
+    padding-top: 40px;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    max-width: 100%;
+}
+.right-side {
+    padding-top: 40px;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    max-width: 100%;
+}
+/**hfthdfgcvhjgnvmgfgcnvhgfgnhvm**/
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 0px 0;
+}
+
+.footer-content {
+  display: flex;
+  
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: auto;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: grey;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+  color: white;
+}
+.left4 {
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/65d476e8aff78d448b6b3233350f1bb0/fujin-pro-b-950x580-desktop.webp);
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+
+}
+.right5 {
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/2fb5601db7a84213129e2f26d31f050f/mercury-blade16-blade18-b-950x580-desktop.webp);
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+
+}
+.left6 {
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/65d476e8aff78d448b6b3233350f1bb0/dolce&gabbana-launch-b-950x580-desktop.webp);
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+.right7 {
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/65d476e8aff78d448b6b3233350f1bb0/global-esports-awards-b-950x580-desktop.webp);
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+
+}
+.left8 {
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/65d476e8aff78d448b6b3233350f1bb0/sneki-snek-b-950x580-desktop.webp);
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+
+}
+.right9 {
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/65d476e8aff78d448b6b3233350f1bb0/ebonus-card-b-950x580-desktop.webp);
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+
+}
